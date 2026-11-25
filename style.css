@@ -4,6 +4,7 @@
     --white:hsl(0, 0%, 100%);
     --gray500:hsl(0, 0%, 42%);
     --gray950:hsl(0, 0%, 7%);
+    --link-blue: hsl(228, 45%, 44%);
 }
 
 * {
@@ -81,8 +82,11 @@ body{
 .card__heading a:focus-visible {
     color: var(--yellow);
 }
-.attribution a { color: hsl(228, 45%, 44%); }
+
 .attribution {
     margin-top: 1.5rem;
     font-size: 0.6875rem; text-align: center;
+}
+.attribution a {
+    color: var(--link-blue);
 }
